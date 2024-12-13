@@ -30,7 +30,6 @@ def disable_multiply_instructions(instruction: str, pattern: str) -> int:
     print(new_instruction)
     return find_and_apply_correct_multiply_instructions(new_instruction, pattern)
 
-
 if __name__ == "__main__":
     instruction = parse_input(INPUT_LOCATION_PATH)
     print(find_and_apply_correct_multiply_instructions(instruction, PATTERN))
